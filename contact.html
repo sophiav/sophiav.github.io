@@ -4,6 +4,19 @@
   <title>Contact Us</title>
 </head>
 <body>
+  <header>
+    <a href="index.html">
+      <h1>Woof Woof Hotels</h1>
+    </a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
   <section>
     <h3>Contact Details</h3>
     <address>
@@ -27,58 +40,53 @@
 
     <form action="inquiry.html" method="post">
       <fieldset>
-      <p>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="user_name">
-      </p>
+        <p>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name">
+        </p>
 
-      <p>
-        <label for="mail">Email:</label>
-        <input type="email" id="mail" name="user_email">
-      </p>
+        <p>
+          <label for="mail">Email:</label>
+          <input type="email" id="mail" name="user_email">
+        </p>
 
-      <p>
-        <label for="location">Location:</label>
-        <select id="location" name="user_location">
-          <option value="los_angeles">Los Angeles</option>
-          <option value="miami">Miami</option>
-          <option value="new_york">New York</option>
-          <option value="portland">Portland</option>
-          <option value="san_francisco">San Francisco</option>
-        </select>
-      </p>
+        <p>
+          <label for="location">Location:</label>
+          <select id="location" name="user_location">
+            <option value="los_angeles">Los Angeles</option>
+            <option value="miami">Miami</option>
+            <option value="new_york">New York</option>
+            <option value="portland">Portland</option>
+            <option value="san_francisco">San Francisco</option>
+          </select>
+        </p>
 
-      <p>Services:<br>
-        <input type="checkbox" id="chbox1" name="user_choice">
-        <label for="chbox1">Boarding</label><br>
+        <p>Services:<br>
+          <input type="checkbox" id="chbox1" name="user_choice">
+          <label for="chbox1">Boarding</label><br>
+          
+          <input type="checkbox" id="chbox2" name="user_choice">
+          <label for="chbox2">Daycare</label><br>
+
+          <input type="checkbox" id="chbox3" name="user_choice">
+          <label for="chbox3">Training</label><br>
+
+          <input type="checkbox" id="chbox4" name="user_choice">
+          <label for="chbox4">Grooming</label><br>
+
+          <input type="checkbox" id="chbox5" name="user_choice"><label for="chbox5">Pet Parties</label><br>
+        </p>
+
+
+        <p>
+        <label for="comments">Message:</label>
+        <br>
+        <textarea name="user_comments" id="comments" cols="40" rows="5" placeholder="Please insert your message or inquiry here"  ></textarea>
+        </p>
         
-        <input type="checkbox" id="chbox2" name="user_choice">
-        <label for="chbox2">Daycare</label><br>
-
-        <input type="checkbox" id="chbox3" name="user_choice">
-        <label for="chbox3">Training</label><br>
-
-        <input type="checkbox" id="chbox4" name="user_choice">
-        <label for="chbox4">Grooming</label><br>
-
-        <input type="checkbox" id="chbox5" name="user_choice"><label for="chbox5">Pet Parties</label><br>
-      </p>
-
-
-      <p>
-      <label for="comments">Message:</label>
-      <br>
-      <textarea name="user_comments" id="comments" cols="40" rows="5" placeholder="Please insert your message or inquiry here"  ></textarea>
-      </p>
-      
-      <button type="submit">Send</button>
-      </fieldset>
-
-
-      
+        <button type="submit">Send</button>
+      </fieldset>  
     </form>
-
   </section>
-
 </body>
 </html>
