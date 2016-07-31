@@ -1,70 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="utf-8">
   <title>Services</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Open+Sans|Roboto" rel="stylesheet">
+
 </head>
 <body>
-  <header>
-    <a href="index.html">
+  <header class="header" id="top">
+    <a href="index.html" id="logo">
       <h1>Woof Woof Hotels</h1>
     </a>
-    <nav>
+    <nav id="navigation">
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="services.html">Services</a></li>
+        <li><a href="services.html" class="selected">Services</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <h2 id="top">Find out more about what we can offer:</h2>
-  <h3>Boarding</h3>
-  <img src="images/daycare_1.jpg" alt="dog sleeping" width="300" height="150">
-  <ul>
-    <li>Private Room Package</li>
-    <li>Deluxe Suite Package</li>
-    <li>Ultra Suite Package</li>
-  </ul>
+  <h2>Service Information and Packages</h2>
 
-  <h3>Daycare</h3>
-  <img src="images/training_1.jpeg" alt="playing with dog" width="300" height="150">
-  <ul>
-    <li>Webcam Access</li>
-    <li>Large indoor and outdoor play space with playground equipment</li>
-    <li>Nap and Lunch time </li>
-    <li>Individual Play Time*</li>
-    <li>Dog-walking*</li>
-  </ul>
+  <section id="wrapper">
+    <div class="service-info">
+      <h3>Boarding</h3>
+      <img src="images/daycare_1.jpg" alt="dog sleeping">
+      <ul>
+        <li>Private Room Package</li>
+        <li>Deluxe Suite Package</li>
+        <li>Ultra Suite Package</li>
+      </ul>
+    </div>
 
-  <h3>Training</h3>
-  <img src="images/training_2.jpeg" alt="dog with toy" width="300" height="150">
-  <ul>  
-    <li>Group Class Packages (all levels)</li>
-    <li>Private Training Packages (all levels)</li>
-    <li>Consultations</li>
-  </ul>
+    <div class="service-info">
+      <h3>Daycare</h3>
+      <img src="images/training_1.jpeg" alt="playing with dog">
+      <ul>
+        <li>Webcam Access</li>
+        <li>Large indoor and outdoor play area</li>
+        <li>Nap and Lunch time </li>
+        <li>Dog-walking</li>
+      </ul>
+    </div>
 
-  <h3>Grooming</h3>
-  <img src="images/pexels-photo-59523.jpeg" alt="dog images" width="300" height="150">
-  <ul>
-    <li>Bath and Brush</li>
-    <li>Tooth Brushing and Ear Cleaning</li>
-    <li>Pawdicure</li>
-    <li>Trimming and Breed specific cuts</li>
-  </ul>
+    <div class="service-info">
+      <h3>Training</h3>
+      <img src="images/training_2.jpeg" alt="dog with toy">
+      <ul>  
+        <li>Group Class Packages (all levels)</li>
+        <li>Private Training Packages (all levels)</li>
+        <li>Consultations</li>
+      </ul>
+    </div>
 
-  <h3>Pet Parties</h3>
-  <img src="images/party.jpeg" alt="party dog image" width="300" height="150">
-  <ul>
-    <li>Special Themed Parties</li>
-    <li>Private Playdates and Events</li>
-  </ul>  
+    <div class="service-info">
+      <h3>Grooming</h3>
+      <img src="images/pexels-photo-59523.jpeg" alt="dog images" >
+      <ul>
+        <li>Bath and Brush</li>
+        <li>Tooth Brushing and Ear Cleaning</li>
+        <li>Pawdicure</li>
+        <li>Trimming and Breed specific cuts</li>
+      </ul>
+    </div>
 
-  <br>
-  <p>* Services provided at an additional cost</p>
+    <div class="service-info">
+      <h3>Pet Parties</h3>
+      <img src="images/party.jpeg" alt="party dog image">
+      <ul>
+        <li>Special Themed Parties</li>
+        <li>Private Playdates and Events</li>
+      </ul>  
+    </div>
+  </section>
 
-  <a href="#top">Back to top</a>
+  <p id="link-top">
+    <a href="#top">Back to top</a>
+  </p>
 
 </body>
 
